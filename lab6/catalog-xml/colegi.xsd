@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+ <xs:element name="colegi"><xs:complexType><xs:sequence><xs:element name="coleg" minOccurs="3" maxOccurs="5"><xs:complexType><xs:sequence>
+ <xs:element name="nume" type="xs:string"/><xs:element name="prenume" type="xs:string"/><xs:element name="email" type="xs:string"/><xs:element name="asteptari" type="xs:string"/>
+ <xs:element name="educatie"><xs:complexType><xs:sequence><xs:element name="institutie" type="xs:string"/><xs:element name="perioada" type="xs:string"/><xs:element name="calificare" type="xs:string"/></xs:sequence></xs:complexType></xs:element>
+ <xs:element name="hobbyuri"><xs:complexType><xs:sequence><xs:element name="hobby" type="xs:string" minOccurs="1" maxOccurs="unbounded"/></xs:sequence></xs:complexType></xs:element>
+ </xs:sequence></xs:complexType></xs:element></xs:sequence></xs:complexType></xs:element>
+</xs:schema>
